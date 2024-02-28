@@ -1,0 +1,21 @@
+* {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.kutya {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    /*flex: ;*/
+}
+
+.kutya>.kep {
+    height: 150px;
+    overflow: hidden;
+}
+
+.kutya img {
+    width: 100%;
+    padding: 2px;
+}
